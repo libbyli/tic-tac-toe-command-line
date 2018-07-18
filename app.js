@@ -5,8 +5,26 @@ class TicTacToe {
     this.moves = 0;
   }
 
-  move(row, column) {
-    this.board[row][column] = this.player;
+  move(number) {
+    if (number === 1) {
+      this.board[0][0] = this.player;
+    } else if (number === 2) {
+      this.board[0][1] = this.player;
+    } else if (number === 3) {
+      this.board[0][2] = this.player;
+    } else if (number === 4) {
+      this.board[1][0] = this.player;
+    } else if (number === 5) {
+      this.board[1][1] = this.player;
+    } else if (number === 6) {
+      this.board[1][2] = this.player;
+    } else if (number === 7) {
+      this.board[2][0] = this.player;
+    } else if (number === 8) {
+      this.board[2][1] = this.player;
+    } else {
+      this.board[2][2] = this.player;
+    }
   }
 
   changePlayer() {
@@ -28,7 +46,7 @@ class TicTacToe {
   }
 
   start() {
-    console.log(`${this.board}`);
+    console.log(`${this.board[0]}\n${this.board[1]}\n${this.board[2]}`);
   }
 }
 
