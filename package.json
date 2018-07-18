@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe-command-line",
+  "version": "1.0.0",
+  "description": "command line tic-tac-toe game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libbyli/tic-tac-toe-command-line.git"
+  },
+  "author": "libby li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libbyli/tic-tac-toe-command-line/issues"
+  },
+  "homepage": "https://github.com/libbyli/tic-tac-toe-command-line#readme"
+}
